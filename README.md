@@ -27,16 +27,7 @@ The primary challenge was implementing accurate commit counting across multiple 
 
 **Solution**: Implemented intelligent batching and caching strategies, focusing on the top 5 most active repositories per user to balance accuracy with performance. Added comprehensive error handling to gracefully degrade functionality when API limits are reached, ensuring the application remains functional even under constraints.
 
-## One Improvement If Hired
 
-If hired, I would implement a **machine learning-powered relevance scoring system** that goes beyond keyword matching. This would include:
-
-1. **Natural Language Processing**: Analyze repository README files, commit messages, and code comments to understand the actual technical content and domain focus
-2. **Contribution Quality Analysis**: Evaluate code quality metrics, documentation standards, and project complexity rather than just quantity metrics
-3. **Network Analysis**: Analyze collaboration patterns, contributions to popular quant libraries, and connections within the quantitative finance community
-4. **Temporal Analysis**: Track developer growth trajectories, recent activity patterns, and skill evolution over time
-
-This would provide much more accurate candidate assessment and reduce false positives from developers who may have the right keywords but lack deep quantitative expertise.
 
 ---
 
